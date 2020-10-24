@@ -322,7 +322,7 @@ const GachaDetailPage: React.FC<{
             ? assetI18n.t(`gacha_name:${gachaId}`)
             : gacha.name}
         </Typography>
-        <Container className={layoutClasses.content} maxWidth="sm">
+        <Container className={layoutClasses.content} maxWidth="md">
           <TabContext value={picTabVal}>
             <Paper>
               <Tabs
@@ -636,7 +636,7 @@ const GachaDetailPage: React.FC<{
                 justify="flex-end"
               >
                 {gacha.gachaPickups.map((elem) => (
-                  <Grid key={`pickup-${elem.id}`} item xs={8} md={4}>
+                  <Grid key={`pickup-${elem.id}`} item xs={6} sm={4} md={3}>
                     <CardThumb id={elem.cardId} />
                   </Grid>
                 ))}

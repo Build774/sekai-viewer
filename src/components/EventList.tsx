@@ -156,7 +156,7 @@ const EventList: React.FC<{ contentTransMode: ContentTransModeType }> = ({
       <Typography variant="h6" className={layoutClasses.header}>
         {t("common:event")}
       </Typography>
-      <Container className={layoutClasses.content} maxWidth="md">
+      <Container className={layoutClasses.content}>
         {InfiniteScroll<IEventInfo>({
           viewComponent: ListCard[viewGridType],
           callback,
@@ -164,7 +164,7 @@ const EventList: React.FC<{ contentTransMode: ContentTransModeType }> = ({
           gridSize: {
             xs: 12,
             md:
-              viewGridType === "grid" ? 4 : viewGridType === "agenda" ? 12 : 12,
+              viewGridType === "grid" ? 3 : viewGridType === "agenda" ? 12 : 12,
           },
         })}
       </Container>

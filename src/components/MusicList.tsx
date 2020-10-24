@@ -378,7 +378,7 @@ const MusicList: React.FC<{
       <Typography variant="h6" className={layoutClasses.header}>
         {t("common:music")}
       </Typography>
-      <Container className={layoutClasses.content} maxWidth="md">
+      <Container className={layoutClasses.content}>
         <Grid container justify="space-between">
           <ButtonGroup style={{ marginBottom: "1%" }}>
             <Button
@@ -489,7 +489,7 @@ const MusicList: React.FC<{
           gridSize: {
             xs: 12,
             md:
-              viewGridType === "grid" ? 4 : viewGridType === "agenda" ? 12 : 12,
+              viewGridType === "grid" ? 3 : viewGridType === "agenda" ? 12 : 12,
           },
         })}
       </Container>

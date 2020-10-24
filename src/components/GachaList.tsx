@@ -135,7 +135,7 @@ const GachaList: React.FC<{ contentTransMode: ContentTransModeType }> = ({
       <Typography variant="h6" className={layoutClasses.header}>
         {t("common:gacha")}
       </Typography>
-      <Container className={layoutClasses.content} maxWidth="md">
+      <Container className={layoutClasses.content}>
         {InfiniteScroll<IGachaInfo>({
           viewComponent: ListCard,
           callback,
