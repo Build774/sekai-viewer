@@ -1,0 +1,10 @@
+{
+  "character": {
+    "caption": "キャラクター"
+  },
+  "sort": {
+    "caption": "ソート",
+    "ascending": "昇順",
+    "descending": "降順"
+  }
+}

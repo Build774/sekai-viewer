@@ -1,0 +1,61 @@
+{
+  "about": "O",
+  "home": "Dom",
+  "card": "Karta",
+  "music": "Muzyka",
+  "gacha": "Gacha",
+  "event": "Wydarzenie",
+  "stamp": "Naklejka",
+  "comic": "Komiks",
+  "character": "Osoba",
+  "musicMeta": "Piosenka Meta",
+  "scoreCalculator": "Kalkulator Wyniku",
+  "support": "Wsparcie",
+  "toolbar": {
+    "title": "Lista Funkcji"
+  },
+  "information": "Informacja",
+  "tools": "Narzędzia",
+  "settings": {
+    "title": "Ustawienia"
+  },
+  "language": "Język",
+  "darkmode": "Jasny Tryb",
+  "contentTranslationMode": {
+    "title": "Tryb Wyświetlania Zawartości Gry",
+    "original": "Oryginalne",
+    "translated": "Przetłumaczone (jeżeli dostępne)",
+    "both": "Pokaż Oba"
+  },
+  "id": "ID",
+  "title": "Tytuł",
+  "unit": "Jednostka",
+  "support_unit": "Jednostka Wsparcia",
+  "attribute": "Atrybut",
+  "startAt": "Dostępna Forma",
+  "rarity": "Rzadkość",
+  "thumb": "Kciuk",
+  "skill": "Umiejętność",
+  "performance": "Występ",
+  "technique": "Technika",
+  "stamina": "Wytrzymałość",
+  "power": "Moc",
+  "releaseCondition": "Stan Wydania",
+  "releaseCosts": "Koszty Wydania",
+  "rewards": "Nagrody",
+  "type": "Typ",
+  "endAt": "Dostępne Do",
+  "icon": "Ikona",
+  "detect": {
+    "checking": "Sprawdzanie...",
+    "unsupported": "Nieobsługiwane",
+    "supported": "Obsługiwane"
+  },
+  "campaign": "Kampania",
+  "bug": "Błąd",
+  "profile": "Profil",
+  "character_plural": "Osoby",
+  "level": "Poziom",
+  "update": "Aktualizacja",
+  "member": "Osoba"
+}
